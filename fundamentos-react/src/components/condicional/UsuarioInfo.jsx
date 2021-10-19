@@ -4,7 +4,6 @@ import If, {Else} from './if'
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => {
   const usuario = props.usuario || {}
-  console.log(usuario.nome);
   return (
     <div>
       <If test={usuario && usuario.nome}>
